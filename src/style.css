@@ -34,7 +34,7 @@ body {
   }
   
   .search-input {
-    background-color: #f9f7fe;
+    background-color: #0000 ;
     border: none;
     color: rgba(39, 33, 66, 0.4);
     font-size: 16px;
@@ -46,7 +46,7 @@ body {
   .search-button {
     margin-left: 5px;
     font-size: 16px;
-    background-color: #885df1;
+    background-color: #463179;
     color: white;
     border: none;
     padding: 20px;

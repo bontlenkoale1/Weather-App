@@ -1,10 +1,17 @@
 function displayTemperature(response) {
     const temperatureElement = document.querySelector("#current-temperature");
     const cityElement = document.querySelector("#current-city");
+    const humidityElement = document.querySelector("#current-humidity");
+    const windElement = document.querySelector("#current-wind");
+  
     const temperature = Math.round(response.data.temperature.current);
+    const humidity = response.data.temperature.humidity; // Make sure this matches the API response
+    const windSpeed = response.data.wind.speed; // Make sure this matches the API response
   
     cityElement.textContent = response.data.city;
     temperatureElement.textContent = temperature;
+    humidityElement.textContent = `${humidity}%`;
+    windElement.textContent = `${windSpeed} km/h`;
   }
   
   function handleError(error) {
@@ -18,7 +25,7 @@ function displayTemperature(response) {
     const city = searchInputElement.value.trim();
   
     if (city) {
-      const apiKey = "b2a5adcct04b33178913oc335f405433";
+      const apiKey = "0fd2f6d04c480da7a695db3eo9b870t6";
       const apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
   
       axios.get(apiUrl).then(displayTemperature).catch(handleError);
