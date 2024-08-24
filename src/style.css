@@ -76,14 +76,14 @@ body {
     margin: 0;
   }
   .current-details {
-    color: rgba(39, 33, 66, 0.4);
+    color: rgba(15, 2, 44, 0.712);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
   }
   
   .current-details strong {
-    color: #f65282;
+    color: #dd849f;
   }
   
   .current-temperature-icon {
