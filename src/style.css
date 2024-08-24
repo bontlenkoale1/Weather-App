@@ -28,7 +28,7 @@ body {
   
   a:hover,
   a:focus {
-    color: #7031df;
+    color: #6123cc;
     outline: none;
   }
   header {
@@ -109,7 +109,7 @@ body {
     text-align: center;
     padding-top: 15px;
   
-    color: rgba(39, 33, 66, 0.4);
+    color: rgba(10, 6, 29, 0.979);
   }
   .current-temperature img {
     width: 80px; 
