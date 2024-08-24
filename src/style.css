@@ -2,17 +2,17 @@ body {
     background:linear-gradient(
         rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.3)
-    ),url('https://images.unsplash.com/photo-1484589065579-248aad0d8b13?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZWFydGglMjBmcm9tJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D');
+    ),url('https://plus.unsplash.com/premium_photo-1673474112205-037558e54995?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWFydGglMjBmcm9tJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D');
     background-size: cover;
     font-family: "Roboto", sans-serif;
-    color: #272142;
+    color: #3f3080;
     margin: 0;
     padding: 0;
     line-height: 1.6;
   }
   
   .weather-app {
-    background: rgba(167, 154, 154, 0.719); 
+    background: rgba(255, 252, 252, 0.192); 
     max-width: 600px;
     margin: 60px auto;
     padding: 30px;
@@ -39,7 +39,7 @@ body {
   .search-input {
     background-color: #0000 ;
     border: none;
-    color: rgba(39, 33, 66, 0.4);
+    color: #dd849f;
     font-size: 16px;
     padding: 20px;
     width: 75%;
