@@ -1,17 +1,23 @@
 function displayTemperature(response) {
-    const temperatureElement = document.querySelector("#current-temperature");
-    const cityElement = document.querySelector("#current-city");
-    const humidityElement = document.querySelector("#current-humidity");
-    const windElement = document.querySelector("#current-wind");
+    let temperatureElement = document.querySelector("#current-temperature");
+    let cityElement = document.querySelector("#current-city");
+    let humidityElement = document.querySelector("#current-humidity");
+    let windElement = document.querySelector("#current-wind");
+    let descriptionElement = document.querySelector("#weather-description");
+    let iconElement = document.querySelector("#weather-icon");
   
-    const temperature = Math.round(response.data.temperature.current);
-    const humidity = response.data.temperature.humidity; // Make sure this matches the API response
-    const windSpeed = response.data.wind.speed; // Make sure this matches the API response
+    let temperature = Math.round(response.data.temperature.current);
+    let humidity = response.data.temperature.humidity; 
+    let windSpeed = response.data.wind.speed;
+    let description = response.data.condition.description;
+    let iconUrl = response.data.condition.icon_url; 
   
     cityElement.textContent = response.data.city;
     temperatureElement.textContent = temperature;
     humidityElement.textContent = `${humidity}%`;
-    windElement.textContent = `${windSpeed} km/h`;
+    windElement.textContent = `${windSpeed} m/s`;
+    descriptionElement.textContent = description;
+    iconElement.src = iconUrl; 
   }
   
   function handleError(error) {
