@@ -2,10 +2,10 @@ body {
     background:linear-gradient(
         rgba(0, 0, 0, 0.911),
         rgba(0, 0, 0, 0.3)
-    ),url('https://images.unsplash.com/photo-1532767153582-b1a0e5145009?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2t5fGVufDB8fDB8fHww');
+    ),url('https://media.istockphoto.com/id/1450888838/photo/blue-sky-with-white-cloud-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=p7sCKIG4ZCJPn-9FHfjUgvwxWyZDWnT8x3EN8EkiOzk=');
     background-size: cover;
     font-family: "Roboto", sans-serif;
-    color: #3f3080;
+    color: #ffff;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -39,7 +39,7 @@ body {
   .search-input {
     background-color: #0000 ;
     border: none;
-    color: #dd849f;
+    color: #e2a8b9;
     font-size: 16px;
     padding: 20px;
     width: 75%;
@@ -76,7 +76,7 @@ body {
     margin: 0;
   }
   .current-details {
-    color: rgb(2, 1, 10);
+    color: rgb(252, 252, 255);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
